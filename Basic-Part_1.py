@@ -59,7 +59,12 @@ Link ==> https://www.w3resource.com/python-exercises/python-basic-exercises.php
 # print(f"The examination will start from: %i / %i / %i"%exam_st_date)
 
 ### NUMBER 10
-number = int(input("Input one number to see the result: \n ==> "))
-print('Formula i used " n + nn + nnn ... "')
-for num in number:
-    number += num
+# number = int(input("Input one number to see the result: \n ==> "))
+# print('Formula i used " n + nn + nnn ... "')
+
+### NUMBER 11
+number = abs(int(input('''
+Input any negative number what you like 
+But don't use any float number. Use real number.
+==> ''')))
+print(f"Your absolute or positive number is {number}")
